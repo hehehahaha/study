@@ -16,3 +16,4 @@ LR和SVM的区别
   第四，线性SVM依赖数据表达的距离测度，所以需要对数据先做normalization，LR不受其影响
   第五，SVM的损失函数就自带正则！！！（损失函数中的1/2||w||^2项），这就是为什么SVM是结构风险最小化算法的原因！！！而LR必须另外在损失函数上添加正则项！！！
 
+https://www.cnblogs.com/always-fight/p/9221783.html
