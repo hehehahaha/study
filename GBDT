@@ -1,2 +1,10 @@
 GBDT全称梯度下降树
 https://www.cnblogs.com/bnuvincent/p/9693190.html
+回归树
+不是分类树
+累加所有残差
+只算一阶导
+
+adaboost 提高前一轮弱分类错误分类样本的权重，降低正确分类样本的权重
+GBDT 是由boosting tree演变，是adaboost一般方法，关键是利用损失函数的负梯度去模拟残差，对一般的损失函数，只要求一阶导
+XGBoost 对代价函数二阶泰勒展开，同时用到了一阶和二阶导
